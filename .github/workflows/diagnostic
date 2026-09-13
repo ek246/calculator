@@ -1,0 +1,6 @@
+name: Check Python import
+  run: |
+    pwd
+    ls -la
+    python -c "import sys; print(sys.path)"
+    python -c "import app; print(app)"
