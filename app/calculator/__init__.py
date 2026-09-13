@@ -4,7 +4,7 @@ def calculator():
     while True:
         user_input = input("Enter an operation (e.g., 'add 2 3'), enter stop to quit: ")
         if user_input.lower() == 'stop':
-            print("Stoping the calculator")
+            print("Stopping the calculator")
             break
 
         try:
