@@ -11,8 +11,4 @@ def test_multiplication():
 def test_division():
     assert division(6, 3) == 2
     with pytest.raises(ZeroDivisionError):
-        division(6, 0)
-
-    
-    
-  
+        division(6, 0)  
