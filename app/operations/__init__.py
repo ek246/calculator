@@ -5,4 +5,7 @@ def subtraction(a: float, b: float) -> float:
 def multiplication(a: float, b: float) -> float:
     return a * b
 def division(a: float, b: float) -> float:
+    if b == 0:
+        raise ZeroDivisionError("Cannot divide by zero")
     return a / b
+    
